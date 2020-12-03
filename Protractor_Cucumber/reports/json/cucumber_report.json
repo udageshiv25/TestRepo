@@ -1,0 +1,83 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User should be able to navigate to Selenium home page",
+    "line": 1,
+    "id": "user-should-be-able-to-navigate-to-selenium-home-page",
+    "tags": [],
+    "uri": "Features\\Customers.feature",
+    "elements": [
+      {
+        "id": "user-should-be-able-to-navigate-to-selenium-home-page;home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Home Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Selenium home page",
+            "match": {
+              "location": "stepDef\\Customers.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I do nothing",
+            "match": {
+              "location": "stepDef\\Customers.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the title",
+            "match": {
+              "location": "stepDef\\Customers.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "config\\hooks.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
